@@ -25,23 +25,23 @@
                 <div class="row">
                     <div class="col s12">
                         <ul class="tabs">
-                            <li class="tab col s3"><a  href="#test5">Learn</a></li>
-                            <li class="tab col s3"><a  href="#test1">Learn</a></li>
-                            <li class="tab col s3"><a class="active" href="#test2">Opportunity</a></li>
-                            <li class="tab col s3"><a href="#test3">Search</a></li>
-                            <li class="tab col s3"><a href="#test4">Events (Givings)</a></li>
+                            <li class="tab col s2"><a class="active" href="#test1">TimeLine</a></li>
+                            <li class="tab col s2"><a  href="#test2">Learn</a></li>
+                            <li class="tab col s2"><a  href="#test3">Opportunity</a></li>
+                            <li class="tab col s2"><a href="#test4">Search</a></li>
+                            <li class="tab col s2"><a href="#test5">Events (Givings)</a></li>
                         </ul>
                     </div>
 
-                    <div id="test5" class="col s12">{{>timeline}}</div>
+                    <div id="test1" class="col s12">{{> timeline}}</div>
 
-                    <div id="test1" class="col s12">{{>learn}}</div>
+                    <div id="test2" class="col s12">{{> learn}}</div>
 
-                    <div id="test2" class="col s12">{{>opportunities}}</div>
+                    <div id="test3" class="col s12">{{> opportunities}}</div>
 
-                    <div id="test3" class="col s12">{{>search}}</div>
+                    <div id="test4" class="col s12">{{> search}}</div>
 
-                    <div id="test4" class="col s12">{{>events}}</div>
+                    <div id="test5" class="col s12">{{> evt}}</div>
 
 
                 </div>
@@ -56,7 +56,7 @@
 
         <template name="timeline">
 
-
+            <h3 class="center">Timeline</h3>
 
         </template>
 
@@ -146,8 +146,7 @@
         </template>
 
 
-
-        <template name="events">
+        <template name="evt">
             <h3 class="center">Events (Giving)</h3>
 
             <h4>Will have : </h4>
@@ -158,6 +157,3 @@
             <h5>5. Seminars.</h5>
 
         </template>
-
-
-
