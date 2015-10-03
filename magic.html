@@ -25,20 +25,24 @@
                 <div class="row">
                     <div class="col s12">
                         <ul class="tabs">
-                            <li class="tab col s3"><a class="active" href="#test1">Learn</a></li>
-                            <li class="tab col s3"><a  href="#test2">Opportunity</a></li>
+                            <li class="tab col s3"><a  href="#test5">Learn</a></li>
+                            <li class="tab col s3"><a  href="#test1">Learn</a></li>
+                            <li class="tab col s3"><a class="active" href="#test2">Opportunity</a></li>
                             <li class="tab col s3"><a href="#test3">Search</a></li>
                             <li class="tab col s3"><a href="#test4">Events (Givings)</a></li>
                         </ul>
                     </div>
 
-                    <div id="test1" class="col s12">{{>timeline}}</div>
+                    <div id="test5" class="col s12">{{>timeline}}</div>
 
-                    <div id="test2" class="col s12">{{>around_you}}</div>
+                    <div id="test1" class="col s12">{{>learn}}</div>
 
-                    <div id="test3" class="col s12">{{>startups}}</div>
+                    <div id="test2" class="col s12">{{>opportunities}}</div>
 
-                    <div id="test4" class="col s12">{{>opportunities}}</div>
+                    <div id="test3" class="col s12">{{>search}}</div>
+
+                    <div id="test4" class="col s12">{{>events}}</div>
+
 
                 </div>
             </div>
@@ -50,40 +54,109 @@
 
 </template>
 
-
         <template name="timeline">
-            <h3 class="center">Learn</h3>
-
-            <h5>Why this section ?</h5>
-            <p>By including this section, we are targeting learners.</p>
-            <p>Learners could be anyone from the following :</p>
-            <p>1. Students</p>
-            <p>2. BE passouts</p>
-            <p>3. </p>
 
 
-            <p>Structure of Learn Section</p>
-            <p>1.Learn about technologies, Frameworks.</p>
-            <p>2.Learn from Interview experiences of others</p>
-            <p></p>
-        </template>
-
-
-
-        <template name="around_you">
-            <h3 class="center">opportunity</h3>
 
         </template>
 
 
-        <template name="startups">
-            <h3 class="center">Search</h3>
+        <template name="learn">
+
+
+                <h3 class="center">Learn</h3>
+
+                <h5>Why this section ?</h5>
+                <p>By including this section, we are targeting learners.</p>
+                <p>Learners could be anyone from the following :</p>
+                <p>1. Students</p>
+                <p>2. BE passouts</p>
+                <p>3. Developers</p>
+                <p>3. Employes</p>
+
+                <h5>Structure of Learn Section</h5>
+                <p>1.Learn about technologies, Frameworks etc.</p>
+                <p>2.Learn from Interview experiences of others.</p>
+
+            <h5>Different Pages</h5>
+            <p>1. Startups pages</p>
+            <p>1. Technologies pages</p>
+            <p>2. Framework pages</p>
+            <p>3. Tools Pages (IDE)</p>
+            <p>4. Language Pages</p>
+            <p>5. Can submit Links (indicating level wise (0-9) )</p>
+            <p>6. Can write articles</p>
+            <p>7. User profiles will be there</p>
+            <p>8. Can savo articles</p>
+
+
+            <h5>Profile contents :</h5>
+            <p>1. All major accounts integration to check his/her online presence</p>
+            <p>2. Portfolio</p>
+            <p>3. Achievements</p>
+            <p>4. Reviews</p>
+            <h5>5. What you can provide : <br>Ex - i can provide funding, <br>i can provide space for startup etc. </h5>
+            <h5>6. What you can accept : <br>Ex - I can accept a job(full time) and internship.</h5>
+            <p>7. Whether you can provide advise : Yes/No</p>
+
         </template>
 
 
 
         <template name="opportunities">
+
+            <h3 class="center">opportunity</h3>
+
+            <h4>Seach opportunities</h4>
+
+            <h4>Types of opportunities : </h4>
+            <h5>opportunities in existing company(non-startup) : </h5>
+            <p>1. Startups jobs</p>
+            <p>2. Startups internships</p>
+
+
+            <h5>opportunities in Startups : </h5>
+            <p>1. Jobs in company</p>
+            <p>2. Internships in company</p>
+
+            <h5>Stand alone projects</h5>
+            <p>May be in startups ,companies, individual projects.</p>
+
+        </template>
+
+
+        <template name="search">
+            <h3 class="center">Search</h3>
+
+            <h5>Search for people</h5>
+            <p>1. Location based search</p>
+            <p>2. Technology stack based search</p>
+            <p>3. Role based search</p>
+            <p>4. Experience based search</p>
+            <p>5. Talk ,collaborate , share, meet etc with peoples</p>
+
+
+            <h5>Search for startups and companies</h5>
+            <p>1. Search companies based on tehnology stack</p>
+            <p>2. Location based search</p>
+            <p>3. Based on number of employes</p>
+
+
+
+        </template>
+
+
+
+        <template name="events">
             <h3 class="center">Events (Giving)</h3>
+
+            <h4>Will have : </h4>
+            <h5>1. Hackathone.</h5>
+            <h5>2. Challenges.</h5>
+            <h5>3. Meetups.</h5>
+            <h5>4. Conferences.</h5>
+            <h5>5. Seminars.</h5>
+
         </template>
 
 
